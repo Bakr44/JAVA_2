@@ -40,7 +40,9 @@ public class Employee {
     }
 
     public int raisedSalary(int percent){
-        return salary + (salary * percent / 100);
+        int raise = salary * percent / 100;
+        salary += raise;
+        return salary;
     }
 
     @Override
