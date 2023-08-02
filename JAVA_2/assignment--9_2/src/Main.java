@@ -4,12 +4,17 @@ public class Main {
         MovablePoint p = new MovablePoint(0, 0, 2, 3);
         System.out.println("First position: (" + p.getX() + ", " + p.getY() +", "+p.getxSpeed()+", "+p.getySpeed()+ ")");
 
-//        p.moveRight();
-//        p.moveRight();
+        p.moveRight();
         p.moveDown();
+//        p.moveUp();
+//        p.moveLeft();
+        System.out.println("New position: (" + p.getX() + ", " + p.getY() +", "+p.getxSpeed()+", "+p.getySpeed()+ ")");
+
+
+//        p.moveRight();
+//        p.moveDown();
         p.moveUp();
-        p.moveUp();
-        p.moveUp();
+        p.moveLeft();
         System.out.println("New position: (" + p.getX() + ", " + p.getY() +", "+p.getxSpeed()+", "+p.getySpeed()+ ")");
 
     }
